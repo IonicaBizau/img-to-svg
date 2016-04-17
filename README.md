@@ -33,15 +33,16 @@ imgToSvg("https://octodex.github.com/images/jetpacktocat.png", (err, out) => {
     
 ## :memo: Documentation
         
-### `imgToSvg(a, b)`
+### `imgToSvg(path, opts, options, cb)`
 Convert the image pixels in SVG squares.
 
 #### Params
-- **Number** `a`: Param descrpition.
-- **Number** `b`: Param descrpition.
-
-#### Return
-- **Number** Return description.
+- **String** `path`: The image path.
+- **Object** `opts`: An object containing the following fields:
+ - `pxSize` (Number): The square size.
+ - `margin` (Number): The margin between squares.
+- **Object** `options`: The image-to-ascii options.
+- **Function** `cb`: The callback function.
 
         
 ## :yum: How to contribute
