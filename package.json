@@ -31,6 +31,7 @@
     "image-to-ascii": "^3.0.1"
   },
   "blah": {
-    "description": "This parse the image pixels, [`image-to-ascii`](https://github.com/IonicaBizau/image-to-ascii) is used."
+    "description": "This parse the image pixels, [`image-to-ascii`](https://github.com/IonicaBizau/image-to-ascii) is used.",
+    "ex_img": "http://i.imgur.com/HZQqqLn.png"
   }
 }

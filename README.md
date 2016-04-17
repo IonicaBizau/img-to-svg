@@ -4,6 +4,8 @@
 
 This parse the image pixels, [`image-to-ascii`](https://github.com/IonicaBizau/image-to-ascii) is used.
 
+[![img-to-svg](http://i.imgur.com/HZQqqLn.png)](#)
+
 ## :cloud: Installation
     
 ```sh
