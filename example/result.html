@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>ImgToSVG Example</title>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/svg.js/2.3.0/svg.min.js"></script>
+    </head>
+    <body>
+        <div id="draw" style="height:100vh"></div>
+        <script>
+            (function () {
+                "use strict";
+                fetch("out.svg").then(x => x.text()).then(x => {
+                    let svg = SVG("draw").svg(x)
+                    let rs = svg.select("rect");
+                    let diff = rs.get(1).x() - rs.get(0).x();
+                    let max = rs.get(rs.length() - 1).x()
+                    let index = 0;
+                    for (let i = 0; i <= max; i += diff) {
+                        setTimeout(function () {
+                            let p = { x: i, y: 0 };
+                            while (p.x) {
+                                p.x -= diff;
+                                svg.select(`rect[x='${p.x}'][y='${p.y}'],rect[x='${max - p.x}'][y='${max - p.y}']`).animate().scale(1.2);
+                                p.y += diff;
+                            }
+                        }, ++index * 100);
+                    }
+                });
+            })();
+        </script>
+    </body>
+</html>

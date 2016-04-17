@@ -26,5 +26,11 @@
   "bugs": {
     "url": "https://github.com/IonicaBizau/img-to-svg/issues"
   },
-  "homepage": "https://github.com/IonicaBizau/img-to-svg#readme"
+  "homepage": "https://github.com/IonicaBizau/img-to-svg#readme",
+  "dependencies": {
+    "image-to-ascii": "^3.0.1"
+  },
+  "blah": {
+    "description": "This parse the image pixels, [`image-to-ascii`](https://github.com/IonicaBizau/image-to-ascii) is used."
+  }
 }
