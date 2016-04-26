@@ -13,7 +13,7 @@
     "squares"
   ],
   "license": "MIT",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -33,5 +33,16 @@
   "blah": {
     "description": "This parse the image pixels, [`image-to-ascii`](https://github.com/IonicaBizau/image-to-ascii) is used.",
     "ex_img": "http://i.imgur.com/HZQqqLn.png"
-  }
+  },
+  "files": [
+    "bin/",
+    "app/",
+    "lib/",
+    "dist/",
+    "src/",
+    "resources/",
+    "menu/",
+    "cli.js",
+    "index.js"
+  ]
 }
