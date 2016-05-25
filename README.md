@@ -1,5 +1,7 @@
 
-# img-to-svg [![PayPal](https://img.shields.io/badge/%24-paypal-f39c12.svg)][paypal-donations] [![Version](https://img.shields.io/npm/v/img-to-svg.svg)](https://www.npmjs.com/package/img-to-svg) [![Downloads](https://img.shields.io/npm/dt/img-to-svg.svg)](https://www.npmjs.com/package/img-to-svg) [![Get help on Codementor](https://cdn.codementor.io/badges/get_help_github.svg)](https://www.codementor.io/johnnyb?utm_source=github&utm_medium=button&utm_term=johnnyb&utm_campaign=github)
+# img-to-svg
+
+ [![PayPal](https://img.shields.io/badge/%24-paypal-f39c12.svg)][paypal-donations] [![AMA](https://img.shields.io/badge/ask%20me-anything-1abc9c.svg)](https://github.com/IonicaBizau/ama) [![Version](https://img.shields.io/npm/v/img-to-svg.svg)](https://www.npmjs.com/package/img-to-svg) [![Downloads](https://img.shields.io/npm/dt/img-to-svg.svg)](https://www.npmjs.com/package/img-to-svg) [![Get help on Codementor](https://cdn.codementor.io/badges/get_help_github.svg)](https://www.codementor.io/johnnyb?utm_source=github&utm_medium=button&utm_term=johnnyb&utm_campaign=github)
 
 > Convert the image pixels in SVG squares.
 
