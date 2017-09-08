@@ -6,6 +6,7 @@ You can see below the API reference of this module.
 Convert the image pixels in SVG squares.
 
 #### Params
+
 - **String** `path`: The image path.
 - **Object** `opts`: An object containing the following fields:
  - `pxSize` (Number): The square size.
