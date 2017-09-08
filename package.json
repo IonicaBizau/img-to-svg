@@ -13,7 +13,7 @@
     "squares"
   ],
   "license": "MIT",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "main": "lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -44,6 +44,9 @@
     "resources/",
     "menu/",
     "cli.js",
-    "index.js"
+    "index.js",
+    "bloggify.js",
+    "bloggify.json",
+    "bloggify/"
   ]
 }
